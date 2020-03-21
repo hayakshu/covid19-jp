@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "home": "ホーム"
+  },
+  "home": {
+    "header": "新型コロナウイルス 国内情報ダッシュボード"
+  },
+  "total": {
+    "cases": "感染者数",
+    "death": "死亡者数",
+    "discharged": "退院者",
+    "examined": "PCR 検査実施人数"
+  }
+}

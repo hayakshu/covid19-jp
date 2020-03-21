@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "home": "Home"
+  },
+  "home": {
+    "header": "Dashboard of COVID-2019 in Japan"
+  },
+  "total": {
+    "cases": "Total Cases",
+    "death": "Deceased",
+    "discharged": "Discharged",
+    "examined": "PCR Examined"
+  }
+}
