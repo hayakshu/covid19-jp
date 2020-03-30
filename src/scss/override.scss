@@ -1,0 +1,29 @@
+/*
+ * Colors
+ */
+$navy-100: #2c313a;
+$navy-200: #24292e;
+$navy-300: #1b1d23;
+
+$grey-100: #d6d8da;
+$grey-200: #9da6b4;
+$grey-300: #424242;
+
+$font-stack: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+
+/*
+ * Bootstrap Overrides
+ */
+$theme-colors: (
+  dark: $navy-200,
+  primary: $grey-200,
+);
+
+$font-family-sans-serif: $font-stack;
+
+$dropdown-bg: $navy-100;
+$dropdown-link-hover-bg: $grey-200; 
+
+$card-bg: $navy-100;
+
+$table-color: $grey-100;

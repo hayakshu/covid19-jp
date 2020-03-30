@@ -1,0 +1,11 @@
+@import "override";
+@import "bootstrap";
+
+/*
+ * css 
+ * */
+body {
+  background-color: $navy-300;
+  color: $grey-200;
+  min-height: 100vh;
+}
