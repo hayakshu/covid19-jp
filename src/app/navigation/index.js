@@ -17,13 +17,13 @@ const Navigation = ({ t }) => (
         <GoInfo size={20} />
       </RouteLink>
     </Nav>
-    <Nav className="ml-auto" defaultActiveKey="jp">
+    <Nav className="ml-auto" defaultActiveKey="ja">
       <Link path="https://github.com/shusinthebox/COVID19-JP">
         <GoMarkGithub size={20} />
       </Link>
       <NavDropdown title={<GoGlobe size={20} />} id="nav-dropdown" alignRight>
         <NavDropdown.Item as="div">
-          <LangLink eventKey="jp">JP</LangLink>
+          <LangLink eventKey="ja">JP</LangLink>
         </NavDropdown.Item>
         <NavDropdown.Item as="div">
           <LangLink eventKey="en">EN</LangLink>
