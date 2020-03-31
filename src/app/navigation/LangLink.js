@@ -6,7 +6,6 @@ const LangLink = ({ children, ...props }) => {
   const { i18n } = useTranslation();
 
   const changeLanguage = eventKey => {
-    console.log(eventKey);
     i18n.changeLanguage(eventKey);
   };
 
