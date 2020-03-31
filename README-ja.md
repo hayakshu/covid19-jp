@@ -12,4 +12,4 @@
 
 ### 追加
 
-[English Markdown](README-ja.md)
+[English Markdown](README.md)
