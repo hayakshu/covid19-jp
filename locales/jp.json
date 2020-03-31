@@ -1,0 +1,138 @@
+{
+  "lastUpdated": "最終更新日",
+  "prefecture": "都道府県",
+  "cases": "感染者",
+  "deceased": "死亡者",
+  "discharged": "退院者",
+  "examined": "検査実行者",
+  "change": "新規",
+  "positive": "有症状",
+  "negative": "無症状",
+  "male": "男性",
+  "female": "女性",
+  "navigation": {
+    "home": "ホーム"
+  },
+  "home": {
+    "header": "新型コロナウイルス 国内情報"
+  },
+  "total": {
+    "cases": "感染者数",
+    "deceased": "死亡者数",
+    "discharged": "退院者",
+    "examined": "PCR 検査実施人数",
+    "previous": "前日比"
+  },
+  "series": {
+    "headers": {
+      "reports": "新型コロナウイルス 報告推移",
+      "pcr": "新型コロナウイルス PCR 検査報告推移"
+    },
+    "dual": {
+      "cumulative": "累計",
+      "change": "新規"
+    }
+  },
+  "symptoms": {
+    "cases": {
+      "header": "新型コロナウイルス 感染症"
+    }
+  },
+  "prefectures": {
+    "table": {
+      "header": "新型コロナウイルス 都道府県情報"
+    }
+  },
+  "map": {
+    "header": "新型コロナウイルス 感染者マップ"
+  },
+  "ageGender": {
+    "header": "新型コロナウイルス 年齢男女別"
+  },
+  "FAQ": {
+    "common": {
+      "header": "よくあるご質問",
+      "one": {
+        "question": "Q1. データは何処から引用されていますか？",
+        "answer": "ダッシュボードに表示されているデータは厚生労働省が掲載している報道発表資料を参照しています。"
+      },
+      "two": {
+        "question": "Q2. 感染者とは何を表しているのですか?",
+        "answer": "感染者とはPCR検査で新型コロナウイルス陽性が出た人を指します。"
+      },
+      "three": {
+        "question": "Q3. ダイヤモンド・プリンセス号の乗客・乗員はデータに含まれていますか？",
+        "answer": "ダイヤモンド・プリンセス号の乗客・乗員はデータから除かれています。しかし、政府チャーター便帰国者、空港検疫は含まれています。"
+      },
+      "four": {
+        "question": "Q4. 男女年齢別に表示されている数字を足すと感染者数と異なる理由は何故ですか？",
+        "answer": "厚生労働省が掲載している資料には各感染者の年齢、性別、居住地が乗っています。しかしこの情報が公表されていない例もあるので数字がずれてしまいます。"
+      }
+    },
+    "info": {
+      "header": "関連情報",
+      "ministry": "厚生労働省 - 国内感染者情報 (JP)",
+      "nhk": "NHK - 新型コロナウイルス最新ニュース (JP)",
+      "worldometer": "Worldometer - 世界感染者情報 (EN)"
+    }
+  },
+  "tens": "10代",
+  "twenties": "20代",
+  "thirties": "30代",
+  "fourties": "40代",
+  "fifties": "50代",
+  "sixties": "60代",
+  "seventies": "70代",
+  "eighties": "80代",
+  "nineties": "90代",
+  "underTen": "10歳未満",
+	"Hokkaido": "北海道",
+	"Aomori": "青森県",
+	"Iwate": "岩手県",
+	"Miyagi": "宮城県",
+	"Akita": "秋田県",
+	"Yamagata": "山形県",
+	"Fukushima": "福島県",
+	"Ibaraki": "茨城県",
+	"Tochigi": "栃木県",
+	"Gunma": "群馬県",
+	"Saitama": "埼玉県",
+	"Chiba": "千葉県",
+	"Tokyo": "東京都",
+	"Kanagawa": "神奈川県",
+	"Niigata": "新潟県",
+	"Toyama": "富山県",
+	"Ishikawa": "石川県",
+	"Fukui": "福井県",
+	"Yamanashi": "山梨県",
+	"Nagano": "長野県",
+	"Gifu": "岐阜県",
+	"Shizuoka": "静岡県",
+	"Aichi": "愛知県",
+	"Mie": "三重県",
+	"Shiga": "滋賀県",
+	"Kyoto": "京都府",
+	"Osaka": "大阪府",
+	"Hyogo": "兵庫県",
+	"Nara": "奈良県",
+	"Wakayama": "和歌山県",
+	"Tottori": "鳥取県",
+	"Shimane": "島根県",
+	"Okayama": "岡山県",
+	"Hiroshima": "広島県",
+	"Yamaguchi": "山口県",
+	"Tokushima": "徳島県",
+	"Kagawa": "香川県",
+	"Ehime": "愛媛県",
+	"Kochi": "高知県",
+	"Fukuoka": "福岡県",
+	"Saga": "佐賀県",
+	"Nagasaki": "長崎県",
+	"Kumamoto": "熊本県",
+	"Oita": "大分県",
+	"Miyazaki": "宮崎県",
+	"Kagoshima": "鹿児島県",
+	"Okinawa": "沖縄県",
+  "CharteredFlight": "チャーター便帰国者",
+  "Other": "空港検疫"
+}

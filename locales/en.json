@@ -1,0 +1,139 @@
+{
+  "lastUpdated": "Last Updated",
+  "prefecture": "Prefecture",
+  "cases": "Cases",
+  "deceased": "Deceased",
+  "discharged": "Discharged",
+  "examined": "Examined",
+  "positive": "Showing Symptoms",
+  "negative": "No Symptoms",
+  "male": "Male",
+  "female": "Female",
+  "change": "New",
+  "navigation": {
+    "home": "Home"
+  },
+  "home": {
+    "header": "COVID-19 in Japan"
+  },
+  "total": {
+    "cases": "Total Cases",
+    "deceased": "Deceased",
+    "discharged": "Discharged",
+    "examined": "PCR Examined",
+    "previous": "Previous"
+  },
+  "series": {
+    "headers": {
+      "reports": "Number of Reports",
+      "pcr": "Number of PCR Examinations"
+    },
+    "dual": {
+      "cumulative": "Cumulative",
+      "change": "New"
+    }
+  },
+  "symptoms": {
+    "cases": {
+      "header": "Symptoms Breakdown"
+    }
+  },
+  "prefectures":{
+    "table": {
+      "header": "Reports per Prefecture"
+    }
+  },
+  "map":{
+    "header": "COVID-19 Japan Map"
+  },
+  "ageGender": {
+    "header": "COVID-19 Cases by Age & Gender"
+  },
+  "FAQ": {
+    "common": {
+      "header": "Common Questions",
+      "one": {
+        "question": "Q1. Where is the data sourced from?",
+        "answer": "The data is sourced regularly from the daily report published by the Ministry of Health, Labour and Welfare. "
+      },
+      "two": {
+        "question": "Q2. What do Total Cases refer to?",
+        "answer": "Total Cases refer to the number of patients who have tested positive for COVID-19 through a PCR examination."
+      },
+      "three": {
+        "question": "Q3. Are cases reported from the Diamond Princess included in the dataset?",
+        "answer": "The dataset excludes cases reported from the Diamond Princess. However, the data includes those returning via charted flights who've tested positive for COVID-19 and those quarantined at the airport who've tested positive."
+      },
+      "four": {
+        "question": "Q4. Why doesn't the sum of all cases in the Age & Gender section equate to Total Cases?",
+        "answer": "Cases reported by the Ministry of Health, Labour and Welfare include information such as age, gender, and residence. However, there are reports that are missing this information."
+      }
+    },
+    "info": {
+      "header": "Useful Information",
+      "ministry": "Ministry of Health - Daily Reports of COVID-19 Cases (JP)",
+      "nhk": "NHK - Updated News on COVID-19 (JP)",
+      "worldometer": "Worldometer - Global Reported Cases (EN)"
+    }
+  },
+  "tens": "10s",
+  "twenties": "20s",
+  "thirties": "30s",
+  "fourties": "40s",
+  "fifties": "50s",
+  "sixties": "60s",
+  "seventies": "70s",
+  "eighties": "80s",
+  "nineties": "90s",
+  "underTen": "Under 10",
+
+	"Hokkaido": "Hokkaido",
+	"Aomori": "Aomori",
+	"Iwate": "Iwate",
+	"Miyagi": "Miyagi",
+	"Akita": "Akita",
+	"Yamagata": "Yamagata",
+	"Fukushima": "Fukushima",
+	"Ibaraki": "Ibaraki",
+	"Tochigi": "Tochigi",
+	"Gunma": "Gunma",
+	"Saitama": "Saitama",
+	"Chiba": "Chiba",
+	"Tokyo": "Tokyo",
+	"Kanagawa": "Kanagawa",
+	"Niigata": "Niigata",
+	"Toyama": "Toyama",
+	"Ishikawa": "Ishikawa",
+	"Fukui": "Fukui",
+	"Yamanashi": "Yamanashi",
+	"Nagano": "Nagano",
+	"Gifu": "Gifu",
+	"Shizuoka": "Shizuoka",
+	"Aichi": "Aichi",
+	"Mie": "Mie",
+	"Shiga": "Shiga",
+	"Kyoto": "Kyoto",
+	"Osaka": "Osaka",
+	"Hyogo": "Hyogo",
+	"Nara": "Nara",
+	"Wakayama": "Wakayama",
+	"Tottori": "Tottori",
+	"Shimane": "Shimane",
+	"Okayama": "Okayama",
+	"Hiroshima": "Hiroshima",
+	"Yamaguchi": "Yamaguchi",
+	"Tokushima": "Tokushima",
+	"Kagawa": "Kagawa",
+	"Ehime": "Ehime",
+	"Kochi": "Kochi",
+	"Fukuoka": "Fukuoka",
+	"Saga": "Saga",
+	"Nagasaki": "Nagasaki",
+	"Kumamoto": "Kumamoto",
+	"Oita": "Oita",
+	"Miyazaki": "Miyazaki",
+	"Kagoshima": "Kagoshima",
+	"Okinawa": "Okinawa",
+  "CharteredFlight": "From chartered flight",
+  "Other": "Quarantined at airport" 
+}
