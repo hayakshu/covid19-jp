@@ -12,6 +12,7 @@
     "i18next": "^19.3.3",
     "i18next-xhr-backend": "^3.2.2",
     "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.3.3",
@@ -28,8 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -37,11 +37,13 @@
   },
   "browserslist": {
     "production": [
+      "ie 11",
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
     "development": [
+      "ie 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"

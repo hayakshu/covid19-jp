@@ -1,11 +1,11 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import Link from './Link';
 
 const RouteLink = ({ path, children, ...props }) => {
   return (
     <LinkContainer exact to={path}>
-      <Link {...props}>{children}</Link>
+      <Nav.Link {...props}>{children}</Nav.Link>
     </LinkContainer>
   );
 };

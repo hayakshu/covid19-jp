@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { withTranslation } from 'react-i18next';
 import { Card, Table } from '../../../components';
+
 const PrefectureTable = ({ t, prefectures }) => {
   const header = t('prefectures.table.header');
 

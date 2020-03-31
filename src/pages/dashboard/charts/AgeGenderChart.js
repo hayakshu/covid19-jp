@@ -15,7 +15,6 @@ import { Card } from '../../../components';
 import CustomXAxisTick from './CustomXAxisTick';
 import CustomYAxisTick from './CustomYAxisTick';
 import legendFormatter from './legendFormatter';
-import tooltipFormatter from './tooltipFormatter';
 import tooltipStyle from './tooltipStyle';
 
 const AgeGenderChart = ({ t, data }) => {
@@ -40,7 +39,8 @@ const AgeGenderChart = ({ t, data }) => {
           />
           <Tooltip
             contentStyle={tooltipStyle}
-            formatter={(value, name) => tooltipFormatter(value, t(name))}
+            labelFormatter={name => t(name)}
+            formatter={(value, name) => [value, t(name)]}
           />
           <Legend
             formatter={(value, entry) => legendFormatter(t(value), entry)}
@@ -53,9 +53,9 @@ const AgeGenderChart = ({ t, data }) => {
   );
 };
 
-const mapToData = obj => {
-  return Object.keys(obj).map(key => {
-    return { name: key, ...obj[key] };
+const mapToData = ageGender => {
+  return Object.keys(ageGender).map(key => {
+    return { name: key, ...ageGender[key] };
   });
 };
 

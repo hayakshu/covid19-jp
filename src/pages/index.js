@@ -1,3 +1,3 @@
 import Dashboard from './dashboard';
-
-export { Dashboard };
+import FAQ from './faq';
+export { Dashboard, FAQ };

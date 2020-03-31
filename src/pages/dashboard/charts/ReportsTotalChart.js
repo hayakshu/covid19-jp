@@ -14,7 +14,6 @@ import { withTranslation } from 'react-i18next';
 import CustomXAxisTick from './CustomXAxisTick';
 import CustomYAxisTick from './CustomYAxisTick';
 import legendFormatter from './legendFormatter';
-import tooltipFormatter from './tooltipFormatter';
 import tooltipStyle from './tooltipStyle';
 
 const ReportsTotalChart = ({ data, t }) => {
@@ -35,7 +34,7 @@ const ReportsTotalChart = ({ data, t }) => {
         />
         <Tooltip
           contentStyle={tooltipStyle}
-          formatter={(value, name) => tooltipFormatter(value, t(name))}
+          formatter={(value, name) => [value, t(name)]}
         />
         <Legend
           formatter={(value, entry) => legendFormatter(t(value), entry)}
@@ -48,20 +47,22 @@ const ReportsTotalChart = ({ data, t }) => {
   );
 };
 
-const aggregate = (cases, deceased, discharged) => {
-  return cases.map((_, i) => {
-    return {
-      date: cases[i].date,
-      cases: cases[i].cases,
-      deceased: deceased[i].deceased,
-      discharged: discharged[i].discharged,
-    };
-  });
+const mapToData = ({ cases, deceased, discharged }) => {
+  if (cases) {
+    return cases.map((_, i) => {
+      return {
+        date: cases[i].date,
+        cases: cases[i].cases,
+        deceased: deceased[i].deceased,
+        discharged: discharged[i].discharged,
+      };
+    });
+  }
+  return [];
 };
 
 const mapStateToProps = ({ covid19 }) => {
-  const { cases, deceased, discharged } = covid19.series;
-  return { data: cases ? aggregate(cases, deceased, discharged) : [] };
+  return { data: mapToData(covid19.series) };
 };
 
 export default connect(mapStateToProps)(withTranslation()(ReportsTotalChart));

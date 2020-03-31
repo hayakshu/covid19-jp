@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { connect } from 'react-redux';
-import { withTranslation } from 'react-i18next';
 import actions from '../../actions';
+import { Loading, Error } from '../../components';
+import { Header } from './header';
 import {
   TotalCases,
   TotalDeceased,
@@ -19,12 +20,20 @@ class Dashboard extends React.Component {
   }
 
   render() {
-    const { t } = this.props;
+    const { isFetching, error } = this.props;
+
+    if (isFetching) {
+      return <Loading />;
+    }
+    if (error) {
+      return <Error />;
+    }
+
     return (
       <Container>
         <Row className="pt-3 px-2">
-          <Col className="px-1">
-            <h4 className="text-white">{t('home.header')}</h4>
+          <Col sm={12} className="p-1">
+            <Header />
           </Col>
         </Row>
         <Row className="p-2">
@@ -40,22 +49,16 @@ class Dashboard extends React.Component {
           <Col sm={6} lg={3} className="p-1">
             <TotalExamined />
           </Col>
-        </Row>
-        <Row className="p-2">
-          <Col className="p-1">
+          <Col sm={12} className="p-1">
             <ReportsChart />
           </Col>
-        </Row>
-        <Row className="p-2">
           <Col xl={6} className="p-1">
             <AgeGenderChart />
           </Col>
           <Col xl={6} className="p-1">
             <JapanMap />
           </Col>
-        </Row>
-        <Row className="p-2">
-          <Col className="p-1">
+          <Col sm={12} className="p-1">
             <PrefectureTable />
           </Col>
         </Row>
@@ -73,5 +76,5 @@ const mapStateToProps = ({ covid19 }) => {
 };
 
 export default connect(mapStateToProps, { fetch: actions.fetchCovid19 })(
-  withTranslation()(Dashboard)
+  Dashboard
 );

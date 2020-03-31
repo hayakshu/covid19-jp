@@ -9,3 +9,7 @@ body {
   color: $grey-200;
   min-height: 100vh;
 }
+
+path[class="country"]:hover {
+  fill: $navy-100;
+}

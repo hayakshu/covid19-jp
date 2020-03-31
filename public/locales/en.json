@@ -1,4 +1,5 @@
 {
+  "lastUpdated": "Last Updated",
   "prefecture": "Prefecture",
   "cases": "Cases",
   "deceased": "Deceased",
@@ -13,7 +14,7 @@
     "home": "Home"
   },
   "home": {
-    "header": "Dashboard of COVID-19 in Japan"
+    "header": "COVID-19 in Japan"
   },
   "total": {
     "cases": "Total Cases",
@@ -48,6 +49,44 @@
   "ageGender": {
     "header": "COVID-19 Cases by Age & Gender"
   },
+  "FAQ": {
+    "common": {
+      "header": "Common Questions",
+      "one": {
+        "question": "Q1. Where is the data sourced from?",
+        "answer": "The data is sourced regularly from the daily report published by the Ministry of Health, Labour and Welfare. "
+      },
+      "two": {
+        "question": "Q2. What do Total Cases refer to?",
+        "answer": "Total Cases refer to the number of patients who have tested positive for COVID-19 through a PCR examination."
+      },
+      "three": {
+        "question": "Q3. Are cases reported from the Diamond Princess included in the dataset?",
+        "answer": "The dataset excludes cases reported from the Diamond Princess. However, the data includes those returning via charted flights who've tested positive for COVID-19 and those quarantined at the airport who've tested positive."
+      },
+      "four": {
+        "question": "Q4. Why doesn't the sum of all cases in the Age & Gender section equate to Total Cases?",
+        "answer": "Cases reported by the Ministry of Health, Labour and Welfare include information such as age, gender, and residence. However, there are reports that are missing this information."
+      }
+    },
+    "info": {
+      "header": "Useful Information",
+      "ministry": "Ministry of Health - Daily Reports of COVID-19 Cases (JP)",
+      "nhk": "NHK - Updated News on COVID-19 (JP)",
+      "worldometer": "Worldometer - Global Reported Cases (EN)"
+    }
+  },
+  "tens": "10s",
+  "twenties": "20s",
+  "thirties": "30s",
+  "fourties": "40s",
+  "fifties": "50s",
+  "sixties": "60s",
+  "seventies": "70s",
+  "eighties": "80s",
+  "nineties": "90s",
+  "underTen": "Under 10",
+
 	"Hokkaido": "Hokkaido",
 	"Aomori": "Aomori",
 	"Iwate": "Iwate",
@@ -95,6 +134,6 @@
 	"Miyazaki": "Miyazaki",
 	"Kagoshima": "Kagoshima",
 	"Okinawa": "Okinawa",
-  "CharteredFlight": "From Chartered Flight",
-  "Other": "Other" 
+  "CharteredFlight": "From chartered flight",
+  "Other": "Quarantined at airport" 
 }
