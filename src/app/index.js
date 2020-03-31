@@ -8,7 +8,7 @@ import Routes from './routes';
 function App() {
   return (
     <Provider store={store}>
-      <Router path={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navigation />
         <Routes />
       </Router>

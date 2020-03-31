@@ -36,6 +36,8 @@ const FAQ = ({ t }) => (
           <a
             className="text-white pl-3"
             href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00086.html"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             {t('FAQ.info.ministry')}
           </a>
@@ -47,6 +49,8 @@ const FAQ = ({ t }) => (
           <a
             className="text-white pl-3"
             href="https://www3.nhk.or.jp/news/special/coronavirus/latest-news/"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             {t('FAQ.info.nhk')}
           </a>
@@ -58,6 +62,8 @@ const FAQ = ({ t }) => (
           <a
             className="pl-3 text-white"
             href="https://www.worldometers.info/coronavirus/"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             {t('FAQ.info.worldometer')}
           </a>
