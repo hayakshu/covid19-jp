@@ -1,3 +1,3 @@
 import ReportsChart from './ReportsChart';
-import AgeGenderChart from './AgeGenderChart';
-export { ReportsChart, AgeGenderChart };
+import AgeRangeChart from './AgeRangeChart';
+export { ReportsChart, AgeRangeChart };

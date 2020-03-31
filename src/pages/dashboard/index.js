@@ -10,7 +10,7 @@ import {
   TotalDischarged,
   TotalExamined,
 } from './totals';
-import { ReportsChart, AgeGenderChart } from './charts';
+import { ReportsChart, AgeRangeChart } from './charts';
 import { PrefectureTable } from './table';
 import { JapanMap } from './map';
 
@@ -53,7 +53,7 @@ class Dashboard extends React.Component {
             <ReportsChart />
           </Col>
           <Col xl={6} className="p-1">
-            <AgeGenderChart />
+            <AgeRangeChart />
           </Col>
           <Col xl={6} className="p-1">
             <JapanMap />

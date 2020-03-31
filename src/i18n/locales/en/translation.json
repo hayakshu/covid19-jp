@@ -46,8 +46,8 @@
   "map":{
     "header": "COVID-19 Japan Map"
   },
-  "ageGender": {
-    "header": "COVID-19 Cases by Age & Gender"
+  "ageRange": {
+    "header": "COVID-19 Cases by Age Range"
   },
   "FAQ": {
     "common": {
@@ -65,7 +65,7 @@
         "answer": "The dataset excludes cases reported from the Diamond Princess. However, the data includes those returning via charted flights who've tested positive for COVID-19 and those quarantined at the airport who've tested positive."
       },
       "four": {
-        "question": "Q4. Why doesn't the sum of all cases in the Age & Gender section equate to Total Cases?",
+        "question": "Q4. Why doesn't the sum of all cases in the Age Range section equate to Total Cases?",
         "answer": "Cases reported by the Ministry of Health, Labour and Welfare include information such as age, gender, and residence. However, there are reports that are missing this information."
       }
     },

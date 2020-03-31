@@ -13,7 +13,7 @@ const fetchSuccess = (
   series,
   prefectures,
   symptoms,
-  ageGender
+  ageRange
 ) => ({
   type: types.FETCH_COVID19_SUCCESS,
   lastUpdated,
@@ -21,7 +21,7 @@ const fetchSuccess = (
   series,
   prefectures,
   symptoms,
-  ageGender,
+  ageRange,
 });
 
 const fetchError = error => ({
@@ -40,10 +40,10 @@ const fetchCovid19 = (url = DEFAULT_PATH) => async dispatch => {
       series,
       prefectures,
       symptoms,
-      ageGender,
+      ageRange,
     } = data;
     dispatch(
-      fetchSuccess(lastUpdated, daily, series, prefectures, symptoms, ageGender)
+      fetchSuccess(lastUpdated, daily, series, prefectures, symptoms, ageRange)
     );
   } catch (error) {
     console.error('covid19 action', error.message);

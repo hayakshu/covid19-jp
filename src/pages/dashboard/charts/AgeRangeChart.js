@@ -17,8 +17,8 @@ import CustomYAxisTick from './CustomYAxisTick';
 import legendFormatter from './legendFormatter';
 import tooltipStyle from './tooltipStyle';
 
-const AgeGenderChart = ({ t, data }) => {
-  const header = t('ageGender.header');
+const AgeRangeChart = ({ t, data }) => {
+  const header = t('ageRange.header');
   return (
     <Card header={header}>
       <ResponsiveContainer height={425}>
@@ -45,22 +45,22 @@ const AgeGenderChart = ({ t, data }) => {
           <Legend
             formatter={(value, entry) => legendFormatter(t(value), entry)}
           />
-          <Bar dataKey="male" fill="#1FC3AA" />
-          <Bar dataKey="female" fill="#8624F5" />
+          <Bar dataKey="cases" fill="#1FC3AA" />
+          <Bar dataKey="deceased" fill="#8624F5" />
         </BarChart>
       </ResponsiveContainer>
     </Card>
   );
 };
 
-const mapToData = ageGender => {
-  return Object.keys(ageGender).map(key => {
-    return { name: key, ...ageGender[key] };
+const mapToData = ageRange => {
+  return Object.keys(ageRange).map(key => {
+    return { name: key, ...ageRange[key] };
   });
 };
 
 const mapStateToProps = ({ covid19 }) => {
-  return { data: mapToData(covid19.ageGender) };
+  return { data: mapToData(covid19.ageRange) };
 };
 
-export default connect(mapStateToProps)(withTranslation()(AgeGenderChart));
+export default connect(mapStateToProps)(withTranslation()(AgeRangeChart));

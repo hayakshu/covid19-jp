@@ -6,7 +6,7 @@ const INITIAL_STATE = {
   series: {},
   prefectures: {},
   symptoms: {},
-  ageGender: {},
+  ageRange: {},
   isFetching: false,
   error: null,
 };
@@ -22,7 +22,7 @@ const covid19 = (state = INITIAL_STATE, action) => {
         series,
         prefectures,
         symptoms,
-        ageGender,
+        ageRange,
       } = action;
       return {
         ...state,
@@ -31,7 +31,7 @@ const covid19 = (state = INITIAL_STATE, action) => {
         series,
         prefectures,
         symptoms,
-        ageGender,
+        ageRange,
         isFetching: false,
       };
     case types.FETCH_COVID19_FAILURE:
