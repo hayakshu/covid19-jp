@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import actions from '../../actions';
-import { Loading, Error } from '../../components';
+import { Loading } from '../../components';
 import { Header } from './header';
 import {
   TotalCases,
@@ -26,7 +26,7 @@ class Dashboard extends React.Component {
       return <Loading />;
     }
     if (error) {
-      return <Error />;
+      return null;
     }
 
     return (

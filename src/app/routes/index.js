@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Dashboard, FAQ } from '../../pages';
+import { Dashboard, Faq, NotFound } from '../../pages';
 
 const Routes = () => (
   <Switch>
@@ -8,7 +8,10 @@ const Routes = () => (
       <Dashboard />
     </Route>
     <Route path="/faq">
-      <FAQ />
+      <Faq />
+    </Route>
+    <Route>
+      <NotFound />
     </Route>
   </Switch>
 );

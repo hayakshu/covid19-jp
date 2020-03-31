@@ -10,8 +10,10 @@
   "male": "Male",
   "female": "Female",
   "change": "New",
-  "navigation": {
-    "home": "Home"
+  "notFound": {
+    "header": "404",
+    "subtitle": "File not found",
+    "description": "The file has either been deleted or is a system error."
   },
   "home": {
     "header": "COVID-19 in Japan"
@@ -49,7 +51,7 @@
   "ageRange": {
     "header": "COVID-19 Cases by Age Range"
   },
-  "FAQ": {
+  "Faq": {
     "common": {
       "header": "Common Questions",
       "one": {

@@ -3,32 +3,32 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { withTranslation } from 'react-i18next';
 import { GoLinkExternal } from 'react-icons/go';
 
-const FAQ = ({ t }) => (
+const Faq = ({ t }) => (
   <Container>
     <Row className="px-2 pb-2 pt-4">
       <Col sm={12} className="p-2">
-        <h4 className="text-white border-bottom">{t('FAQ.common.header')}</h4>
+        <h4 className="text-white border-bottom">{t('Faq.common.header')}</h4>
       </Col>
       <Col sm={12} className="p-2">
-        <p className="text-white">{t('FAQ.common.one.question')}</p>
-        <p>{t('FAQ.common.one.answer')}</p>
+        <p className="text-white">{t('Faq.common.one.question')}</p>
+        <p>{t('Faq.common.one.answer')}</p>
       </Col>
       <Col sm={12} className="p-2">
-        <p className="text-white">{t('FAQ.common.two.question')}</p>
-        <p>{t('FAQ.common.two.answer')}</p>
+        <p className="text-white">{t('Faq.common.two.question')}</p>
+        <p>{t('Faq.common.two.answer')}</p>
       </Col>
       <Col sm={12} className="p-2">
-        <p className="text-white">{t('FAQ.common.three.question')}</p>
-        <p>{t('FAQ.common.three.answer')}</p>
+        <p className="text-white">{t('Faq.common.three.question')}</p>
+        <p>{t('Faq.common.three.answer')}</p>
       </Col>
       <Col sm={12} className="p-2">
-        <p className="text-white">{t('FAQ.common.four.question')}</p>
-        <p>{t('FAQ.common.four.answer')}</p>
+        <p className="text-white">{t('Faq.common.four.question')}</p>
+        <p>{t('Faq.common.four.answer')}</p>
       </Col>
     </Row>
     <Row className="p-2">
       <Col sm={12} className="p-2">
-        <h4 className="text-white border-bottom">{t('FAQ.info.header')}</h4>
+        <h4 className="text-white border-bottom">{t('Faq.info.header')}</h4>
       </Col>
       <Col sm={12} className="p-2">
         <h6>
@@ -39,7 +39,7 @@ const FAQ = ({ t }) => (
             target="_blank"
             rel="noreferrer noopener"
           >
-            {t('FAQ.info.ministry')}
+            {t('Faq.info.ministry')}
           </a>
         </h6>
       </Col>
@@ -52,7 +52,7 @@ const FAQ = ({ t }) => (
             target="_blank"
             rel="noreferrer noopener"
           >
-            {t('FAQ.info.nhk')}
+            {t('Faq.info.nhk')}
           </a>
         </h6>
       </Col>
@@ -65,7 +65,7 @@ const FAQ = ({ t }) => (
             target="_blank"
             rel="noreferrer noopener"
           >
-            {t('FAQ.info.worldometer')}
+            {t('Faq.info.worldometer')}
           </a>
         </h6>
       </Col>
@@ -73,4 +73,4 @@ const FAQ = ({ t }) => (
   </Container>
 );
 
-export default withTranslation()(FAQ);
+export default withTranslation()(Faq);

@@ -1,3 +1,4 @@
 import Dashboard from './dashboard';
-import FAQ from './faq';
-export { Dashboard, FAQ };
+import Faq from './faq';
+import NotFound from './notFound';
+export { Dashboard, Faq, NotFound };

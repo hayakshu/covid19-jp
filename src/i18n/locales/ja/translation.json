@@ -10,8 +10,10 @@
   "negative": "無症状",
   "male": "男性",
   "female": "女性",
-  "navigation": {
-    "home": "ホーム"
+  "notFound": {
+    "header": "404",
+    "subtitle": "データが見つかりません",
+    "description": "アクセスするデータが削除されたか、システムエラーの可能性があります。"
   },
   "home": {
     "header": "新型コロナウイルス 国内情報"
@@ -49,7 +51,7 @@
   "ageRange": {
     "header": "新型コロナウイルス 年齢別"
   },
-  "FAQ": {
+  "Faq": {
     "common": {
       "header": "よくあるご質問",
       "one": {
