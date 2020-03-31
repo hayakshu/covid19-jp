@@ -30,7 +30,7 @@
     "topojson-client": "^3.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PUBLIC_URL='/' react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
