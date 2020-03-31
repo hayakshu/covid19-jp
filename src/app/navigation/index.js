@@ -18,7 +18,7 @@ const Navigation = ({ t }) => (
       </RouteLink>
     </Nav>
     <Nav className="ml-auto" defaultActiveKey="jp">
-      <Link path="https://github.com/">
+      <Link path="https://github.com/shusinthebox/COVID19-JP">
         <GoMarkGithub size={20} />
       </Link>
       <NavDropdown title={<GoGlobe size={20} />} id="nav-dropdown" alignRight>
