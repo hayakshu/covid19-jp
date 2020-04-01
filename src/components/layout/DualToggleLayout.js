@@ -1,11 +1,11 @@
-import React, { useState } from "react";
-import { DualButtonSwitch } from "../switch";
+import React, { useState } from 'react';
+import { DualButtonSwitch } from '../switch';
 
 const DualToggleLayout = ({
   leftSide,
   rightSide,
   leftToggleText,
-  rightToggleText
+  rightToggleText,
 }) => {
   const [isLeft, setIsLeft] = useState(true);
 
@@ -16,7 +16,7 @@ const DualToggleLayout = ({
     }
     setIsLeft(true);
   };
-  const Body = isLeft ? leftSide : rightSide;
+  const body = isLeft ? leftSide : rightSide;
 
   return (
     <>
@@ -28,7 +28,7 @@ const DualToggleLayout = ({
           onChange={onDualButtonChange}
         />
       </div>
-      {Body}
+      {body}
     </>
   );
 };
