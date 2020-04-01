@@ -4,6 +4,7 @@ import { Table } from './table';
 import { Map } from './map';
 import { DualToggleLayout, CenteredFlexContainer } from './layout';
 import { Loading } from './loading';
+import { LineChart, BarChart } from './charts';
 
 export {
   Card,
@@ -13,4 +14,6 @@ export {
   Map,
   DualToggleLayout,
   CenteredFlexContainer,
+  LineChart,
+  BarChart,
 };
