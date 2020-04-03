@@ -56,6 +56,7 @@ const LineChart = ({ t, data, charts }) => {
             dataKey={chart.dataKey}
             stroke={chart.color}
             isAnimationActive={false}
+            dot={false}
           />
         ))}
       </RCLineChart>
