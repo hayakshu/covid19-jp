@@ -22,7 +22,7 @@ const mapStateToProps = ({ covid19 }) => {
   const { deceased } = covid19.daily;
   return {
     total: deceased ? deceased.total : '',
-    change: deceased ? deceased.total : '',
+    change: deceased ? deceased.change : '',
   };
 };
 
