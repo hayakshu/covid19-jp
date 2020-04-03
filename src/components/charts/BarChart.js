@@ -55,6 +55,7 @@ const BarChart = ({ t, data, charts }) => {
             dataKey={chart.dataKey}
             fill={chart.color}
             stackId={chart.stackId}
+            isAnimationActive={false}
           />
         ))}
       </RCBarChart>
