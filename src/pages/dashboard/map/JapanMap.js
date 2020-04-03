@@ -68,7 +68,7 @@ class JapanMap extends React.Component {
     }, {});
 
     const header = t('map.header');
-    const center = [145.883565, 37.565725];
+    const center = [145.883565, 35.565725];
     const scale = 1000;
     return (
       <Card header={header}>
