@@ -7,7 +7,7 @@ const AgeRangeChart = ({ t, data }) => {
   const header = t('ageRange.header');
   const charts = {
     barSize: 10,
-    height: 427,
+    height: 409.64,
     isVertical: true,
     items: [
       {
