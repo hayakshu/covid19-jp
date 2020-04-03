@@ -4,6 +4,15 @@
 /*
  * General 
  * */
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   background-color: $navy-300;
   color: $grey-200;
