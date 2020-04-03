@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 /*
- * css 
+ * General 
  * */
 body {
   background-color: $navy-300;
@@ -10,6 +10,21 @@ body {
   min-height: 100vh;
 }
 
+/*
+ * Maps
+ * */
 path[class="country"]:hover {
   fill: $navy-100;
+}
+
+.svg-container {
+  height: 0;
+  padding-bottom: 80%;
+  position: relative;
+}
+
+.svg-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
