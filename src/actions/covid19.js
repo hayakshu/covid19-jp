@@ -1,6 +1,6 @@
 import types from './types';
 
-// Removed API Endpoint for Github Pages so storing data public
+// Removed API Endpoint for Github Pages so storing data publicly
 const DEFAULT_PATH = './data/covid19.json';
 
 const fetchBegin = () => ({
@@ -29,6 +29,7 @@ const fetchError = error => ({
   error,
 });
 
+// Bulk fetch data
 const fetchCovid19 = (url = DEFAULT_PATH) => async dispatch => {
   dispatch(fetchBegin());
   try {

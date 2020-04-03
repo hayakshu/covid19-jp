@@ -6,9 +6,10 @@ import Navigation from './navigation';
 import Routes from './routes';
 
 function App() {
+  const basename = process.env.PUBLIC_URL;
   return (
     <Provider store={store}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={basename}>
         <Navigation />
         <Routes />
       </Router>
