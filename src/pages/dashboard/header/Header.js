@@ -5,7 +5,7 @@ const Header = ({ t, lastUpdated }) => (
   <>
     <h4 className="text-white">{t('home.header')}</h4>
     <small>
-      {t('lastUpdated')}: {lastUpdated}
+      {lastUpdated} {t('lastUpdated')}
     </small>
   </>
 );
