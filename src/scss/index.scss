@@ -1,6 +1,6 @@
 @import "override";
 @import "bootstrap";
-
+@import "react-bootstrap-table-next/dist/react-bootstrap-table2";
 /*
  * General 
  * */
@@ -19,6 +19,9 @@ body {
   min-height: 100vh;
 }
 
+th {
+  outline: none !important;
+}
 /*
  * Maps
  * */
@@ -37,3 +40,4 @@ path[class="country"]:hover {
   top: 0;
   left: 0;
 }
+

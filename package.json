@@ -16,6 +16,7 @@
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-bootstrap": "^1.0.0",
+    "react-bootstrap-table-next": "^4.0.0",
     "react-dom": "^16.13.1",
     "react-i18next": "^11.3.3",
     "react-icons": "^3.9.0",

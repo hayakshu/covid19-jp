@@ -15,7 +15,7 @@ import legendFormatter from './legendFormatter';
 import tooltipStyle from './tooltipStyle';
 
 const BarChart = ({ t, data, charts }) => {
-  const { height, barSize, isVertical, items } = charts;
+  const { height, barSize, isVertical, items, name } = charts;
   const layout = isVertical ? 'vertical' : 'horizontal';
   const xTick = ({ x, y, payload }) => (
     <AxisTick x={x} y={y} dy={16} value={t(payload.value)} />
@@ -26,11 +26,11 @@ const BarChart = ({ t, data, charts }) => {
   const xAxis = isVertical ? (
     <XAxis tick={xTick} type="number" />
   ) : (
-    <XAxis tick={xTick} dataKey="name" />
+    <XAxis tick={xTick} dataKey={name ?? 'name'} />
   );
 
   const yAxis = isVertical ? (
-    <YAxis tick={yTick} type="category" dataKey="name" />
+    <YAxis tick={yTick} type="category" dataKey={name ?? 'name'} />
   ) : (
     <YAxis tick={yTick} />
   );

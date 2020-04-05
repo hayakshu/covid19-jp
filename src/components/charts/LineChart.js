@@ -15,7 +15,7 @@ import legendFormatter from './legendFormatter';
 import tooltipStyle from './tooltipStyle';
 
 const LineChart = ({ t, data, charts }) => {
-  const { height, items, isVertical } = charts;
+  const { height, items, isVertical, name } = charts;
   const layout = isVertical ? 'vertical' : 'horizontal';
   const xTick = ({ x, y, payload }) => (
     <AxisTick x={x} y={y} dy={16} value={t(payload.value)} />
@@ -26,11 +26,11 @@ const LineChart = ({ t, data, charts }) => {
   const xAxis = isVertical ? (
     <XAxis tick={xTick} type="number" />
   ) : (
-    <XAxis tick={xTick} dataKey="name" />
+    <XAxis tick={xTick} dataKey={name ?? 'name'} />
   );
 
   const yAxis = isVertical ? (
-    <YAxis tick={yTick} type="category" dataKey="name" />
+    <YAxis tick={yTick} type="category" dataKey={name ?? 'name'} />
   ) : (
     <YAxis tick={yTick} />
   );
