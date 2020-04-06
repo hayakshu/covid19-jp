@@ -74,7 +74,7 @@ class JapanMap extends React.Component {
       <Card header={header}>
         <>
           <Map
-            height={500}
+            height={475}
             width={600}
             center={center}
             scale={scale}
