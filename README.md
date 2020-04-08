@@ -1,17 +1,15 @@
-## COVID-19 Japan Dashboard 
+## 新型コロナウイルス国内情報　ダッシュボード 
 
-Dashboard containing information on reported cases of COVID-19 in Japan. The data used has been sourced from the daily reports published by the Ministry of Health, Labour and Welfare.
+新型コロナウイルスのデータをダッシュボード化してみました。データは厚生労働省を参照してます。
 
-The dashboard supports both Japanese (Default) and English.
+### 公開ページ 
 
-### Webpage
+ダッシュボードは[Github Page](https://shusinthebox.github.io/covid19-jp/)からアクセスできます。
 
-The dashboard has been published to a [Github Page](https://shusinthebox.github.io/covid19-jp/) for easy access.
+### データソース
 
-### Data Source
+データは厚生労働省が掲載している[報道発表資料](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00086.html)を参照しています。
 
-The Ministry of of Health, Labour and Welfare publishes a [daily report](https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00086.html) summarizing the cases reported out of each prefecture.
+### 追加
 
-### Extra
-
-[日本語版](README-ja.md)
+[English Markdown](README-en.md)
