@@ -4,7 +4,7 @@
 
 ### 公開ページ 
 
-ダッシュボードは[Github Page](https://shusinthebox.github.io/covid19-jp/)からアクセスできます。
+ダッシュボードは[Github Page](https://hayakshu.github.io/covid19-jp/)からアクセスできます。
 
 ### データソース
 
