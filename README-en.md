@@ -6,7 +6,7 @@ The dashboard supports both Japanese (Default) and English.
 
 ### Webpage
 
-The dashboard has been published to a [Github Page](https://shusinthebox.github.io/covid19-jp/) for easy access.
+The dashboard has been published to a [Github Page](https://hayakshu.github.io/covid19-jp/) for easy access.
 
 ### Data Source
 
